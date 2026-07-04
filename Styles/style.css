@@ -1,4 +1,12 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
 nav ul{
+    
     display: flex;
     list-style: none;
     /* gap: 20px; */
@@ -17,6 +25,15 @@ nav ul li a{
 nav ul li:hover{
     background-color: #99babb;
     transform: translateY(-5px);
+}
+
+.logo a{
+  margin-left: 20px;
+   font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+  
 }
 /* ===========Banner Styles=========== */
 .banner {

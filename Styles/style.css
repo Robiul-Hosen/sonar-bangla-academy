@@ -20,6 +20,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-weight: bold;
+    color: #000000;
     
 }
 nav ul li:hover{
@@ -27,13 +28,17 @@ nav ul li:hover{
     transform: translateY(-5px);
 }
 
-.logo a{
+.logo{
   margin-left: 20px;
    font-size: 20px;
     font-weight: bold;
     color: #000000;
-    text-decoration: none;
+    
   
+}
+.logo a{
+    text-decoration: none;
+    color: #000000;
 }
 /* ===========Banner Styles=========== */
 .banner {

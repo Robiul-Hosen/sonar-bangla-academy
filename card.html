@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+    .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding-top: 20px;
+            border: 1px solid #dad1d161;
+            background-color: #d6c6c656;
+            
+        }
+        .card {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px;
+            padding: 1%;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .card1 {
+            width: 270px;
+            height: 400px;
+            background-color: #000000;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(21, 158, 149, 0.1);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .card1:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(21, 158, 149, 0.2);
+        } 
+        h2 {
+            font-size: 30px;
+            margin-top: 12px;
+            background-color: #1009ea;
+            padding: 10px;
+            border-radius: 15px;
+        }  
+        h4 {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: left;
+            font-size: 14px;
+            text-align: justify;
+        }
+        .tick {
+            color: #00ff00;
+        }
+
+        .cross {
+            color: #ff0000;
+        }
+        button {
+            margin-top: 17px;
+            padding: 10px 20px;
+            background-color: #1009ea;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #7d07b3;
+        }
+        .headr {
+            font-size: 55px;
+            padding-top: 70px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        </style>
+    <title> Card </title>
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <h1 class="headr">Choose Your Plan  </h1>
+            <section class="card">
+                <div class="card1">
+                <h2 style="color: #fefefe;">Basic</h2>
+                <h1>$9.99</h1>
+                <h4> <span class="tick"> ✔</span>  Perfect for individuals</h4>
+                <h4 > <span class="cross"> ✖</span> Great for small teams</h4>
+                <h4 > <span class="cross"> ✖</span> Perfect for large organizations</h4>
+                <h4 > <span class="cross"> ✖</span> Custom solutions for enterprise needs</h4>
+                <button>Get Started</button>
+            </div>
+            <div class="card1">
+                <h2 style="color: rgb(232, 228, 31);">Standard</h2>
+                <h1>$19.99</h1>
+                <h4> <span class="tick"> ✔</span> Perfect for individuals</h4>
+                <h4> <span class="tick"> ✔</span> Great for small teams</h4>
+                <h4 > <span class="cross"> ✖</span> Perfect for large organizations</h4>
+                <h4 > <span class="cross"> ✖</span> Custom solutions for enterprise needs</h4>
+                <button>Get Started</button>
+            </div>
+            <div class="card1">
+                <h2 style="color: rgb(255, 185, 8);">Premium</h2>
+                <h1>$29.99</h1>
+                <h4> <span class="tick"> ✔</span> Perfect for individuals</h4>
+                <h4> <span class="tick"> ✔</span> Great for small teams</h4>
+                <h4> <span class="tick"> ✔</span> Perfect for large organizations</h4>
+                <h4> <span class="tick"> ✔</span> Custom solutions for enterprise needs</h4>
+                <button>Get Started</button>
+            </div>
+            </section>
+            
+        </div>
+    </main>
+</body>
+</html>
